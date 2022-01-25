@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container {
+    height: 450px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+}
+
+/* Box intestazione */
+.box-intestazione {
+    height: 90px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-google {
+    width: 75px;
+}
+
+#accedi {
+    padding: 7px 0px;
+}
+/* Box intestazione */
+
+/* Box mail */
+.box-mail {
+    width: 85%;
+    margin-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.input-text {
+    align-self: center;
+    width: 100%;
+    height: 40px;
+    padding: 23px 20px;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+}
+
+.info-mail {
+    background-color: #fff;
+    font-size: 13px;
+    color: #a6a7a8;
+    padding: 0px 3px;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+}
+
+.email-error {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #D9404E;
+    display: none;
+}
+
+.email-corretta {
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(8, 168, 8);
+    display: none;
+}
+
+.text-blu {
+    color: #3973E8;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* Box mail */
+
+/* Box-info */
+.box-info {
+    width: 85%;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.info {
+    color: #a6a7a8;
+    font-size: 13px;
+    line-height: 18px;
+}
+/* Box info */
+
+/* Box button */
+.box-button {
+    width: 85%;
+    margin-top: 50px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 8px 20px;
+    color: #fff;
+    background-color: #3973E8;
+    border: 0px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1d4eb1;
+}
+/* Box button */
+
+/* Box lingua */
+.container-lingua {
+    width: 409.8px;
+    margin-top: 25px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lingua {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.link-buttom {
+    font-size: 14px;
+    text-decoration: none;
+    color: #a6a7a8;
+    padding: 0px 10px;
+}
+/* Box lingua */
+

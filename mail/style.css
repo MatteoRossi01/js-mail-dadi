@@ -75,19 +75,17 @@ main {
     font-size: 14px;
     margin-top: 5px;
     color: #D9404E;
-    display: none;
 }
 
 .email-corretta {
     font-size: 14px;
     margin-top: 5px;
     color: rgb(8, 168, 8);
-    display: none;
 }
 
 .text-blu {
     color: #3973E8;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;

@@ -1,6 +1,6 @@
 /* Variabile bottone conferma */
 const conferma = document.getElementById('avanti');
-console.log(avanti)
+console.log(conferma)
 
 conferma.addEventListener('click', 
     function() {
@@ -13,13 +13,14 @@ conferma.addEventListener('click',
         console.log(mail)
 
         for (let i=0; i<mailAmmesse.length; i++) {
+            var element = mailAmmesse[i];
+            console.log(element)
 
-            if (mailAmmesse[i] == mail) {
-                document.getElementById('email-corretta').style.display='block'; 
+            if (element == mail) {
+                document.getElementById('email-corretta').innerHTML='La mail che hai inserito è corretta'; 
                 document.getElementById('email-error').style.display='none';
-            } else {
-                document.getElementById('email-error').style.display='block';
-                document.getElementById('email-corretta').style.display='none'; 
+            } if (element != mail) {
+                document.getElementById('email-error').innerHTML='Impossibile trovare il tuo account google'; 
             }
         }     
     }
